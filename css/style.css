@@ -1,0 +1,85 @@
+
+/* selector 
+tag selector
+id
+class
+universal 
+decended selector
+pscudo selector 
+
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+  /* background-color: orange; */
+
+}
+
+
+
+
+h1{
+
+color: red;
+
+}
+
+.demo{
+  color: rgb(255, 0, 179);
+}
+
+
+#test , .demo{
+  color: rgb(0, 255, 149) !important;
+}
+
+#header{
+  font-size: 150px;
+  font-weight: 500;
+  font-family: 'Anton', sans-serif;
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  text-transform: uppercase;
+  
+
+
+}
+
+
+.links{
+  text-decoration: none;
+}
+
+
+#para{
+  text-align:center;
+  text-align: justify;
+}
+
+
+
+/* box model */
+#model{
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  padding-left: ;
+  margin-bottom: 30px;
+}
+
+
+#models{
+  background-color: blue;
+  height: 300px;
+  width: 300px;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+
+
+

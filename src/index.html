@@ -10,11 +10,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
 
   <title >first website</title>
   
 
-<link rel="stylesheet" href="">
+<link rel="stylesheet" href="./style.css">
 <!-- favicon -->
 
 <link rel="icon" type="image/x-icon" href="./../images/linked.png">
@@ -307,7 +308,7 @@ inline-block element
   }
 </style>
 
-<p> this is the <span>paragraph</span> kgdfkg dkjgkdf gkdfjgkfdgdkfgjkdfgj  </p>
+<p style="color: red;"> this is the <span>paragraph</span> kgdfkg dkjgkdf gkdfjgkfdgdkfgjkdfgj  </p>
 
 
 
@@ -334,82 +335,194 @@ youtube
 
 -->
 
+<!-- iframe -->
+
+
+
+<iframe width="200" src="https://www.youtube.com/embed/UaQsTC0Xz14" title="YouTube video player" frameborder="0">
+</iframe>
+
+<!-- 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UaQsTC0Xz14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+</iframe> -->
+
+
+
+<!-- maps -->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60952.859142090034!2d74.16223533604081!3d17.28881391775768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc182450c753bad%3A0xb3493b19ae7886ca!2sKarad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1666330468997!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+<!-- 
+<script>
+alert("ok");
+</script>
+
+
+<script src="./index.js"></script> -->
 
 
 <hr>
 <br>
 
-<!-- block level  -->
-<h1 style="border:1px solid red ;">heading </h1>
+<!-- div  -->
+<!-- <nav></nav>
+<header></header>
+<section></section>
+<article></article>
+<aside></aside>
+<footer></footer>
+<table></table>
+<button></button> -->
 
-<a href="#" style="border: 1px solid red;">clike me </a>
-
-
-
-<span style="border: 1px solid red;">
-this is the section 
-
-</span>
-
-
-
-<p>this is fshfsd sh   <span>     city  </span>      </p>
-
-
-
-
-
-<p>   fjhsjfhjsf"     </p>
-
-
-
-
-
-<!-- classes & id  -->
 <style>
-  #header_first{
-    color: red;
-  }
 
-.heading{
-  border: 1px solid red;
+
+.demo_class{
+  color: orange;
 }
+
+  #demo{
+    color: green;
+  }
 
 
 </style>
 
-<!-- 
-<h1 id="header"> this is the h1 </h1>
-
-<h1 id="second_header"> this is the second </h1>
- -->
-
-
-<h1 class="heading heading_one " id="header_first" > the class heading </h1>
-<h1 class="heading heading_second"> the class heading </h1>
- 
-<!-- iframe  -->
-
-
-<iframe src="" frameborder="0"></iframe>
+<h1  style="color: blue;" id="demo"  class="demo_class"> heading </h1>
+<hr>
+<br>
 
 
 
+<hr>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y7EUT22NR2c" title="YouTube video player" frameborder="0" allowfullscreen>
-
-</iframe>
-
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60952.859142090034!2d74.16223533604081!3d17.28881391775768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc182450c753bad%3A0xb3493b19ae7886ca!2sKarad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1665988287136!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<hr>
 
 
+<form action="">
+
+<label for="">  First Name :     
+  <input type="text" name=""  value=""  placeholder="enter your name" autofocus autocomplete="on" required>
+</label>
 
 
-<video src="./../images/"></video>
-<audio src=""></audio>
+<label for="">  last Name :     
+  <input type="text" name=""  value=""  placeholder="enter your name" autofocus autocomplete="on" required>
+</label>
 
-<embed src="https://en.wikipedia.org/wiki/India" type="">
+
+<label for=""> Mobile No :
+  <input type="number" name="" value=" " placeholder="enter your number" required>
+
+</label>
+<br>
+
+<label for=""> Password : 
+  <input type="password" required>
+</label>
+<br>
+
+<label for="">email :
+  <input type="email">
+  
+</label>
+
+<br>
+<label for="">
+  <input type="file" multiple >
+</label>
+
+<br>
+<label for=""> serch anything : 
+  <input type="search">
+</label>
+
+<br>
+<label for="">
+  <input type="checkbox"> html 
+  <input type="checkbox"> web
+  <input type="checkbox"> css 
+  <input type="checkbox"> js
+</label>
+
+<br>
+
+<label for=""> select gender : 
+<input type="radio" name="gender" value="male"> male 
+<input type="radio" name="gender" value="female"> female 
+</label>
+
+<br>
+
+<select name="" id=""> SELECT STACK : 
+  <option value="">select here</option>
+  <option value="">HTML</option>
+  <option value="">HTML</option>
+  <option value="" selected >CSS</option>
+</select>
+
+<br>
+<label for=""> select colors : 
+  <input type="color">
+</label>
+
+<br>
+<label for=""> select date : 
+  <input type="date">
+</label>
+
+<br>
+<label for=""> select month : 
+  <input type="month">
+</label>
+
+<br>
+<label for=""> select price : 
+  <input type="range">
+</label>
+
+<br>
+<label for=""> telephone : 
+  <input type="tel">
+</label>
+
+<br>
+<label for=""> paste url : 
+  <input type="url">
+</label>
+
+<br>
+<label for=""> select time : 
+  <input type="time">
+</label>
+
+
+
+
+<br>
+<label for=""> reset forms : 
+  <input type="reset">
+</label>
+
+
+<br>
+<input type="submit">
+
+
+</form>
+
+
+<!-- multimedia tags  -->
+<video src="./../video/intro.mp4" controls muted autoplay ></video>
+
+<audio src="./" controls></audio>
+
+
 
 
 
